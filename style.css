@@ -118,21 +118,24 @@ nav a:hover {
 
   font-size: 3.5em;
   margin-bottom: 10px;
+     color: aliceblue;
   font-weight: 700;
 }
 
 .hero-content p {
   font-size: 1.1em;
   margin-bottom: 15px;
+      color: aliceblue;
 }
 
 .subtitle {
   margin-bottom: 20px;
   color:cornsilk;
+ 
 }
 
 /* ===== BUTTON ===== */
-.btn {
+.btn_book {
   background: #ffd166;
   width: 200px;
   color: #003049;
@@ -142,7 +145,16 @@ nav a:hover {
   font-weight: 600;
   transition: 0.3s;
 }
-
+#glass{
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.6px);
+-webkit-backdrop-filter: blur(8.6px);
+border: 1px solid rgba(255, 255, 255, 0.76);
+    padding: 4px 5px;
+}
 .btn:hover {
   background: #fff;
   color: #0077b6;
